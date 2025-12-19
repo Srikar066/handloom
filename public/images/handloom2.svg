@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="100%" height="100%" fill="#f8fbf8"/>
+  <g transform="translate(40,40)">
+    <rect x="0" y="0" width="520" height="320" rx="12" fill="#fff" stroke="#dfefe0" />
+    <g fill="#2a6" font-family="Arial" font-size="20">
+      <text x="24" y="60">Cotton Kurta</text>
+      <text x="24" y="100" font-size="14" fill="#6a6a6a">Hand-spun organic cotton • breathable weave</text>
+    </g>
+  </g>
+</svg>

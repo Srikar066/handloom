@@ -1,0 +1,19 @@
+/* Simple styles for the static clone */
+body { font-family: Arial, Helvetica, sans-serif; margin:0; color:#222; background: linear-gradient(180deg,#faf7f2 0%, #f3efe9 100%);} 
+.container { max-width:1100px; margin:0 auto; padding:18px; }
+.site-header { background: #fff; border-bottom:1px solid #eee; }
+.site-header .container { display:flex; align-items:center; justify-content:space-between; }
+.brand { font-weight:700; color:#0b6b4f; font-size:20px; padding:12px 0; }
+.top-nav a { margin-left:12px; color:#333; text-decoration:none; }
+.hero { background:#fff; padding:24px; margin-top:18px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.05);} 
+.hero h2 { margin:0 0 8px; font-size:28px; }
+.lead { color:#444; margin-bottom:12px; }
+.cta { display:inline-block; background:#0b6b4f; color:#fff; padding:10px 14px; border-radius:6px; text-decoration:none; }
+.product-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; margin-top:12px; }
+.product { background:#fff; padding:12px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.05);} 
+.product img { width:100%; border-radius:6px; }
+.gallery-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin-top:12px; }
+.gallery-grid img { width:100%; border-radius:6px; background:#fff; padding:6px; box-shadow:0 2px 8px rgba(0,0,0,0.04); }
+.site-footer { padding:12px 0; margin-top:24px; border-top:1px solid #eee; background:linear-gradient(180deg,#f3efe9 0%, #efe9df 100%);} 
+.site-footer nav a { margin-left:12px; color:#666; text-decoration:none; }
+.social a { margin-right:12px; color:#0b6b4f; text-decoration:none; }

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Handloom Bazaar — Single Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">Handloom Bazaar</div>
+      <div class="search-wrap">
+        <input id="searchInput" type="search" placeholder="Search products, categories..." />
+      </div>
+      <nav class="top-actions">
+        <button id="navHome" class="nav-btn active">Home</button>
+        <button id="navCart" class="nav-btn">Cart <span id="cartCount" class="badge">0</span></button>
+        <button id="navWishlist" class="nav-btn">Wishlist <span id="wishCount" class="badge">0</span></button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="homeView">
+        <div class="hero-left">
+          <div class="hero-top">
+            <div class="hero-title">Handloom Bazaar</div>
+            <div id="topCats" class="topcats"></div>
+          </div>
+          <div class="hero-sub" id="slideSubtitle">Crafted by artisans — ethically sourced</div>
+          <div class="hero-cta"></div>
+        </div>
+        <div class="hero-right">
+          <div class="carousel">
+            <button id="prevBtn" class="arrow left">◀</button>
+            <img id="slideImg" src="" alt="slide" />
+            <button id="nextBtn" class="arrow right">▶</button>
+          </div>
+          <div class="slide-progress"><div id="progressBar" class="bar"></div></div>
+        </div>
+      </section>
+
+      <section class="featured">
+        <h2>Featured Products</h2>
+        <div id="featuredGrid" class="grid"></div>
+      </section>
+
+      <section id="cartView" class="panel hidden">
+        <h2>Your Cart</h2>
+        <div id="cartList"></div>
+        <div class="cart-actions"><button id="clearCart" class="btn outline">Clear Cart</button></div>
+      </section>
+
+      <section id="wishView" class="panel hidden">
+        <h2>Your Wishlist</h2>
+        <div id="wishList"></div>
+      </section>
+
+    </main>
+
+    <footer class="footer">© Handloom Bazaar 2025</footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
